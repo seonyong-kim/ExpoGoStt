@@ -46,7 +46,7 @@ export default function App() {
         type: 'audio/wav',
       });
 
-      const response = await fetch('http://10.43.139.2:5000/whisper', {
+      const response = await fetch('본인 IP/whisper', {
         method: 'POST',
         body: formData,
         headers: {
